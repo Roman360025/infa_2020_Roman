@@ -64,17 +64,6 @@ for angle in range(0, 360, 15):
                                       (384+15 * np.cos(np.deg2rad(angle + 15)), 25.38+15 * np.sin(np.deg2rad(angle + 15))),
                                       (384+15 * np.cos(np.deg2rad(angle)), 25.38+15 * np.sin(np.deg2rad(angle)))])
 
-# 424.46, 66.5
-# 419, 56.5
-# polygon(screen, (255, 0, 0), [(x1, y1), (x2, y2),
-#                               (x3, y3), (x1, y1)])
-
-
-# polygon(screen, (0, 0, 255), [(100,100), (200,50),
-#                                (300,100), (100,100)], 5)
-# circle(screen, (0, 255, 0), (200, 175), 50)
-# circle(screen, (255, 255, 255), (200, 175), 50, 5)
-
 pygame.display.update()
 clock = pygame.time.Clock()
 finished = False
