@@ -1,0 +1,7 @@
+Gamer    Points
+
+Toreto    5.0
+Leon    2.5
+Roman    2.5
+Vlad    2.0
+Call    1.0
